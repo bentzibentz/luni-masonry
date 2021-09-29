@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luni -  Demo</title>
+
+    <link rel="stylesheet" href="../dist/luni.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <ul class="filter">
+        <li>
+            <a data-luni-link="all">
+                All
+            </a>
+        </li>
+        <li>
+            <a data-luni-link="car">
+                Car
+            </a>
+        </li>
+        <li>
+            <a data-luni-link="street">
+                Street
+            </a>
+        </li>
+        <li>
+            <a data-luni-link="bike">
+                Bike
+            </a>
+        </li>
+    </ul>
+
+    <div id="luni" class="luni-default">
+
+        <div class="" data-luni-el="car,street">
+            <img src="./img/car-street-1.jpg" alt="luni">
+        </div>
+
+        <div class="" data-luni-el="bike,street">
+            <img src="./img/bike-street.jpg" alt="luni">
+        </div>
+
+        <div class="" data-luni-el="car,street">
+            <img src="./img/car-street-2.jpg" alt="luni">
+        </div>
+
+        <div class="" data-luni-el="bike">
+            <img src="./img/bike.jpg" alt="luni">
+        </div>
+
+        <div class="" data-luni-el="car,street">
+            <img src="./img/car-street-2.jpg" alt="luni">
+        </div>
+
+        <div class="" data-luni-el="car">
+            <img src="./img/car-2.jpg" alt="luni">
+        </div>
+
+    </div>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
