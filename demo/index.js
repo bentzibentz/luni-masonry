@@ -3,9 +3,12 @@ class Luni {
             parent = document.querySelector('#luni'),
             links = document.querySelectorAll('[data-luni-link]'),
             active = 'is-active',
-            margin = 20,
+            margin = 18,
             responsive = {
-                980: {
+                1024: {
+                    columns: 4
+                },
+                768: {
                     columns: 3
                 },
                 480: {
@@ -17,7 +20,7 @@ class Luni {
             },
             fadeDuration = {
                 in: 300,
-                out: 0
+                out: 50
             }
         } = {}) {
         this.parent = parent;
@@ -235,10 +238,13 @@ const luni = new Luni({
     active: 'is-activated',
 
     // in pixels
-    margin: 20,
+    margin: 18,
 
     // for responsive
     responsive: {
+        1024: {
+            columns: 4,
+        },
         980: {
             columns: 3,
         },
@@ -253,6 +259,6 @@ const luni = new Luni({
     // fade in/out duration
     fadeDuration: {
         in: 300,
-        out: 0,
+        out: 50,
     },
 });

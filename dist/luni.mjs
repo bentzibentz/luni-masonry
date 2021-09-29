@@ -84,7 +84,7 @@ var Luni = function () {
         _ref$fadeDuration = _ref.fadeDuration,
         fadeDuration = _ref$fadeDuration === void 0 ? {
       in: 300,
-      out: 0
+      out: 50
     } : _ref$fadeDuration;
     _classCallCheck(this, Luni);
     this.parent = parent;

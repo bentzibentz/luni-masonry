@@ -61,13 +61,51 @@ const luni = new Luni();
 </div>
 ```
 
+#### Change settings:
+You can config the Luni Class settings:
+1. `active` set custom active class for selected filter element
+2. `margin` set a custom gap size between the elements
+3. `responsive` set custom breakpoints and number of columns
+4. `fadeDuration` set custom animation durations in milliseconds
+
+Example:
+```js
+const luni = new Luni({
+    // active class
+    active: 'is-activated',
+    // in pixels
+    margin: 18,
+    // for responsive
+    responsive: {
+        1024: {
+            columns: 4,
+        },
+        980: {
+            columns: 3,
+        },
+        480: {
+            columns: 2,
+        },
+        0: {
+            columns: 1,
+        },
+    },
+    // fade in/out duration
+    fadeDuration: {
+        in: 300,
+        out: 50,
+    },
+});
+```
+
 Demo
 ---------
+coming soon…
 
 Inspired and based on
 ---------
 
-Luni is based on the amazing [Isolde](https://github.com/TristanBlg/Isolde) lib. Unfortunately, it looks like the library will not be developed any further since 2018. That's why I decided to adapt the concept and develop it further.
+Luni is based on the amazing [Isolde](https://github.com/TristanBlg/Isolde) lib. Unfortunately, it looks like the library will not be developed any further since 2018. That's why I decided to adapt the concept to develop and improve it further.
 
 License
 -------
