@@ -2,11 +2,15 @@
   "name": "luni",
   "version": "0.1.0",
   "description": "Fast and simple javascript plugin to filter elements from a masonry grid.\n",
-  "repository": "git@github.com:bentzibentz/luni.git",
-  "author": {
-    "name": "Fabian Bentz",
-    "url": "https://www.fabianbentz.de"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentzibentz/luni.git"
   },
+  "author": "Fabian Bentz",
+  "bugs": {
+    "url": "https://github.com/bentzibentz/luni/issues"
+  },
+  "homepage": "https://github.com/bentzibentz/luni#readme",
   "license": "MIT",
   "keywords": [
     "filter",
