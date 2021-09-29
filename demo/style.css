@@ -60,3 +60,9 @@ img {
 .filter li a:hover {
     background-color: #399a12;
 }
+
+.credit {
+    margin: 2rem 0;
+    font-size: .75rem;
+    text-align: center;
+}
