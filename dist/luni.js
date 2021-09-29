@@ -237,7 +237,7 @@
           if (!acc[cle]) {
             acc[cle] = 0;
           }
-          acc[cle] += acc[cle] + val;
+          acc[cle] += val;
           return acc;
         }, []);
       }

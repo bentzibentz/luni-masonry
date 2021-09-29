@@ -42,7 +42,7 @@ class Luni {
             const columnsHeight = this.sumArrHeight(acc, columns);
             const positionX = (id % columns) * (blocWidth + margin);
             const rectHeight = (id - columns >= 0) ? (columnsHeight[id % columns] + (margin * Math.floor(id / columns))) : 0;
-
+            console.log(rectHeight);
             el.style.transform = `translate3d(${positionX}px, ${rectHeight}px, 0)`;
 
             acc.push(el.offsetHeight);
@@ -162,8 +162,7 @@ class Luni {
                 acc[cle] = 0;
             }
 
-            acc[cle] += acc[cle] + val;
-
+            acc[cle] += val;
             return acc;
         }, []);
     }

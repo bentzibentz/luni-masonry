@@ -16,7 +16,7 @@ Or download the [latest release](https://github.com/bentzibentz/luni/releases).
 Docs
 ---------
 
-#### Import
+#### Import:
 
 ```js
 import Luni from 'luni';
@@ -25,7 +25,7 @@ import 'luni/dist/luni.min.css';
 const luni = new Luni();
 ```
 
-#### Usage
+#### Usage:
 1. Create links (a, div, etc.) which will have the attribute `data-luni-link` with a filter value.
 2. Wrap your items with container elements (li, div, etc.) which will have the attribute `data-luni-el` with an value corresponding to the filter values, if an item matches multiple filter values you can user comma separated strings like `data-luni-el="car,street"`.
 3. Wrap your blocks with a container (ul, div, etc.) that have a className `class="luni-default"` and an id `id="luni"`.
