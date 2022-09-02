@@ -1,6 +1,6 @@
 {
   "name": "luni-masonry",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fast and simple javascript plugin to filter elements from a masonry grid.\n",
   "repository": {
     "type": "git",
