@@ -7,7 +7,7 @@
   <img alt="License" src=" https://img.shields.io/github/license/bentzibentz/luni">
 </p>
 
-# Luni
+# Luni masonry
 
 Fast and simple javascript plugin to filter elements from a masonry grid.
 

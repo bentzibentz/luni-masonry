@@ -1,16 +1,16 @@
 {
-  "name": "luni",
-  "version": "0.1.1",
+  "name": "luni-masonry",
+  "version": "0.2.0",
   "description": "Fast and simple javascript plugin to filter elements from a masonry grid.\n",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bentzibentz/luni.git"
+    "url": "git+https://github.com/bentzibentz/luni-masonry.git"
   },
   "author": "Fabian Bentz",
   "bugs": {
-    "url": "https://github.com/bentzibentz/luni/issues"
+    "url": "https://github.com/bentzibentz/luni-masonry/issues"
   },
-  "homepage": "https://github.com/bentzibentz/luni#readme",
+  "homepage": "https://github.com/bentzibentz/luni-masonry#readme",
   "license": "MIT",
   "keywords": [
     "filter",
@@ -18,9 +18,9 @@
     "grid",
     "javascript"
   ],
-  "main": "dist/luni.js",
-  "browser": "dist/luni.min.js",
-  "module": "dist/luni.mjs",
+  "main": "dist/luni-masonry.js",
+  "browser": "dist/luni-masonry.min.js",
+  "module": "dist/luni-masonry.mjs",
   "files": [
     "dist",
     "src"
@@ -67,7 +67,7 @@
     "build:test": "rollup --config=test/rollup.config.js --file=test/build.js test/index.js",
     "dev": "karma start",
     "lint": "xo",
-    "size": "size-limit --limit 3KB src/luni.js",
+    "size": "size-limit --limit 3KB src/luni-masonry.js",
     "test": "npm run lint && karma start --single-run",
     "test:browserstack": "npm run build:test && browserstack-runner",
     "watch": "rollup --config --watch",

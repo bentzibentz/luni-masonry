@@ -29,7 +29,7 @@ const cleanupPlugin = cleanup({
 
 const config = [
     {
-        input: 'src/luni.js',
+        input: 'src/luni-masonry.js',
         output: {
             banner: banner(),
             file: pkg.module,
@@ -43,12 +43,12 @@ const config = [
         ]
     },
     {
-        input: 'src/luni.js',
+        input: 'src/luni-masonry.js',
         output: {
             banner: banner(),
             file: pkg.main,
             format: 'umd',
-            name: 'luni'
+            name: 'luni-masonry'
         },
         plugins: [
             cleanPlugin,
@@ -58,12 +58,12 @@ const config = [
         ]
     },
     {
-        input: 'src/luni.js',
+        input: 'src/luni-masonry.js',
         output: {
             banner: banner(),
             file: pkg.browser,
             format: 'umd',
-            name: 'luni'
+            name: 'luni-masonry'
         },
         plugins: [
             cleanPlugin,
@@ -77,7 +77,7 @@ const config = [
             }),
             copy({
                 targets: [
-                    { src: 'src/luni.css', dest: 'dist' }
+                    { src: 'src/luni-masonry.css', dest: 'dist' }
                 ]
             })
         ]
