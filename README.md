@@ -15,7 +15,7 @@ Installation
 ---------
 
 ```
-npm install luni
+npm i luni-masonry
 ```
 
 Or download the [latest release](https://github.com/bentzibentz/luni/releases).
