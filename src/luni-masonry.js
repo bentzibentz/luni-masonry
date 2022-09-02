@@ -1,4 +1,4 @@
-class Luni {
+class LuniMasonry {
     constructor({
         parent = document.querySelector('#luni'),
         links = document.querySelectorAll('[data-luni-link]'),
@@ -226,4 +226,4 @@ class Luni {
     }
 }
 
-export default Luni;
+export default LuniMasonry;

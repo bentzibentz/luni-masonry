@@ -7,7 +7,7 @@
   <img alt="License" src=" https://img.shields.io/github/license/bentzibentz/luni">
 </p>
 
-# Luni masonry
+# Luni Masonry
 
 Fast and simple javascript plugin to filter elements from a masonry grid.
 
@@ -27,10 +27,10 @@ Docs
 #### Import:
 
 ```js
-import Luni from 'luni';
-import 'luni/dist/luni.min.css';
+import LuniMasonry from 'luni-masonry';
+import 'luni-masonry/dist/luni-masonry.min.css';
 
-const luni = new Luni();
+const luni = new LuniMasonry();
 ```
 
 #### Usage:
@@ -70,7 +70,7 @@ const luni = new Luni();
 ```
 
 #### Change settings:
-You can config the Luni Class settings:
+You can config the LuniMasonry Class settings:
 1. `active` set custom active class for selected filter element
 2. `margin` set a custom gap size between the elements
 3. `responsive` set custom breakpoints and number of columns
@@ -78,7 +78,7 @@ You can config the Luni Class settings:
 
 Example:
 ```js
-const luni = new Luni({
+const luni = new LuniMasonry({
     // active class
     active: 'is-activated',
     // in pixels
@@ -113,7 +113,7 @@ coming soon…
 Inspired and based on
 ---------
 
-Luni is based on the amazing [Isolde](https://github.com/TristanBlg/Isolde) lib. Unfortunately, it looks like the library will not be developed any further since 2018. That's why I decided to adapt the concept to develop and improve it further.
+Luni Masonry is based on the amazing [Isolde](https://github.com/TristanBlg/Isolde) lib. Unfortunately, it looks like the library will not be developed any further since 2018. That's why I decided to adapt the concept to develop and improve it further.
 
 License
 -------
