@@ -108,7 +108,7 @@ const luni = new LuniMasonry({
 
 Demo
 ---------
-coming soon…
+[https://bentzibentz.github.io/luni-masonry/](https://bentzibentz.github.io/luni-masonry/)
 
 Inspired and based on
 ---------
