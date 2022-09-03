@@ -1,10 +1,10 @@
 <p>
-  <a href="https://github.com/bentzibentz/luni/releases" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/v/release/bentzibentz/luni?include_prereleases&style=flat-square"></a>
-  <a href="https://npmjs.com/package/luni" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/luni?style=flat-square"></a>
-  <a href="https://npmjs.com/package/luni" target="_blank"><img alt="npm" src="https://img.shields.io/npm/dt/luni?style=flat-square"></a>
+  <a href="https://github.com/bentzibentz/luni-masonry/releases" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/v/release/bentzibentz/luni-masonry?include_prereleases&style=flat-square"></a>
+  <a href="https://npmjs.com/package/luni-masonry" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/luni-masonry?style=flat-square"></a>
+  <a href="https://npmjs.com/package/luni-masonry" target="_blank"><img alt="npm" src="https://img.shields.io/npm/dt/luni-masonry?style=flat-square"></a>
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/luni?style=flat-square">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/bentzibentz/luni?style=flat-square">
-  <img alt="License" src=" https://img.shields.io/github/license/bentzibentz/luni">
+  <img alt="License" src=" https://img.shields.io/github/license/bentzibentz/luni-masonry">
 </p>
 
 # Luni Masonry
